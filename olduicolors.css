@@ -46,40 +46,61 @@ main {
   grid-gap: 2px;
 }
 
-.colorg {
+main div {
+  padding: 32px 6px;
+  text-align: center;
+}
+
+main .colorg {
   grid-column-start: 1;
   grid-column-end: -1;
-  color: black;
+  color: white;
+  margin: 0;
+  padding: 30px 20px;
+  text-align: center;
 }
 
-div.f101 {
-  background-color: rgb(206, 92, 54);
+main .colorg.f1 {
+  background-color: rgb(219, 95, 58);
 }
 
-div.f102 {
-  background-color: rgb(202, 141, 112);
+main .colorg.f2 {
+  background-color: rgb(32, 84, 112);
 }
 
-div.f103 {
-  background-color: rgb(186, 106, 98);
-}
 
-div.f104 {
-  background-color: rgb(214, 148, 140);
-}
 
-div.f201 {
-  background-color: rgb(43, 83, 104);
-}
+div.f1h1 { background-color: rgb(205, 88, 57); }
+div.f1h2 { background-color: rgb(219, 95, 58); }
+div.f1h3 { background-color: rgb(218, 95, 57); }
+div.f1h4 { background-color: rgb(208, 90, 53); }
 
-div.f202 {
-  background-color: rgb(124, 142, 146);
-}
+div.f101 { background-color: rgb(206, 92, 54); }
+div.f102 { background-color: rgb(202, 141, 112); }
+div.f103 { background-color: rgb(186, 106, 98); }
+div.f104 { background-color: rgb(214, 148, 140); }
 
-div.f203 {
-  background-color: rgb(166, 172, 168);
-}
+div.f2h1 { background-color: rgb(51, 89, 109); }
+div.f2h2 { background-color: rgb(32, 84, 112); }
+div.f2h3 { background-color: rgb(50, 110, 140); }
+div.f2h4 { background-color: rgb(35, 74, 89); }
 
-div.f204 {
-  background-color: rgb(84, 148, 168);
-}
+div.f201 { background-color: rgb(43, 83, 104); }
+div.f202 { background-color: rgb(124, 142, 146); }
+div.f203 { background-color: rgb(166, 172, 168); }
+div.f204 { background-color: rgb(84, 148, 168); }
+
+div.f301 { background-color: rgb(143, 78, 84); }
+div.f302 { background-color: rgb(173, 116, 118); }
+div.f303 { background-color: rgb(95, 48, 49); }
+div.f304 { background-color: rgb(190, 157, 147); }
+
+div.f401 { background-color: rgb(114, 115, 60); }
+div.f402 { background-color: rgb(155, 158, 105); }
+div.f403 { background-color: rgb(177, 172, 151); }
+div.f404 { background-color: rgb(116, 112, 92); }
+
+div.f501 { background-color: rgb(67, 58, 48); }
+div.f502 { background-color: rgb(107, 86, 66); }
+div.f503 { background-color: rgb(124, 105, 77); }
+div.f504 { background-color: rgb(129, 119, 104); }
