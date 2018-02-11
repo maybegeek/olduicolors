@@ -72,6 +72,10 @@ main .colorg.f2 {
   background-color: rgb(32, 84, 112);
 }
 
+main .colorg.f3 {
+  background-color: rgb(149, 81, 94);
+}
+
 
 
 div.f1h1 { background-color: rgb(205, 88, 57); }
@@ -93,6 +97,11 @@ div.f201 { background-color: rgb(43, 83, 104); }
 div.f202 { background-color: rgb(124, 142, 146); }
 div.f203 { background-color: rgb(166, 172, 168); }
 div.f204 { background-color: rgb(84, 148, 168); }
+
+div.f3h1 { background-color: rgb(176, 122, 132); }
+div.f3h2 { background-color: rgb(149, 81, 94); }
+div.f3h3 { background-color: rgb(175, 114, 129); }
+div.f3h4 { background-color: rgb(200, 140, 141); }
 
 div.f301 { background-color: rgb(143, 78, 84); }
 div.f302 { background-color: rgb(173, 116, 118); }
