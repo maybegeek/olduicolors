@@ -1,0 +1,85 @@
+* {
+  box-sizing: border-box;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-kerning: auto;
+}
+
+html {
+  font-family: sans-serif;
+  -webkit-text-size-adjust: 100%;
+}
+
+body {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 24px;
+}
+
+header {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 1em;
+}
+
+header h1 {
+  grid-column-start: 1;
+  grid-column-end: -1;
+}
+
+header figure {
+  margin: 0;
+  margin-top: 1em;
+}
+
+header figure img {
+  width: 100%;
+}
+
+main {
+  padding: 12px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  color: white;
+  background-color: white;
+  grid-gap: 2px;
+}
+
+.colorg {
+  grid-column-start: 1;
+  grid-column-end: -1;
+  color: black;
+}
+
+div.f101 {
+  background-color: rgb(206, 92, 54);
+}
+
+div.f102 {
+  background-color: rgb(202, 141, 112);
+}
+
+div.f103 {
+  background-color: rgb(186, 106, 98);
+}
+
+div.f104 {
+  background-color: rgb(214, 148, 140);
+}
+
+div.f201 {
+  background-color: rgb(43, 83, 104);
+}
+
+div.f202 {
+  background-color: rgb(124, 142, 146);
+}
+
+div.f203 {
+  background-color: rgb(166, 172, 168);
+}
+
+div.f204 {
+  background-color: rgb(84, 148, 168);
+}
