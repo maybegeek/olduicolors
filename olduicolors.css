@@ -82,7 +82,13 @@ main .colorg.f3 {
   background-color: rgb(149, 81, 94);
 }
 
+main .colorg.f4 {
+  background-color: rgb(129, 139, 79);
+}
 
+main .colorg.f5 {
+  background-color: rgb(51, 49, 42);
+}
 
 div.f1h1 { background-color: rgb(205, 88, 57); }
 div.f1h2 { background-color: rgb(219, 95, 58); }
@@ -114,10 +120,20 @@ div.f302 { background-color: rgb(173, 116, 118); }
 div.f303 { background-color: rgb(95, 48, 49); }
 div.f304 { background-color: rgb(190, 157, 147); }
 
+div.f4h1 { background-color: rgb(156, 170, 111); }
+div.f4h2 { background-color: rgb(129, 139, 79); }
+div.f4h3 { background-color: rgb(142, 150, 93); }
+div.f4h4 { background-color: rgb(100, 101, 57); }
+
 div.f401 { background-color: rgb(114, 115, 60); }
 div.f402 { background-color: rgb(155, 158, 105); }
 div.f403 { background-color: rgb(177, 172, 151); }
 div.f404 { background-color: rgb(116, 112, 92); }
+
+div.f5h1 { background-color: rgb(80, 74, 67); }
+div.f5h2 { background-color: rgb(70, 64, 55); }
+div.f5h3 { background-color: rgb(64, 59, 55); }
+div.f5h4 { background-color: rgb(51, 49, 42); }
 
 div.f501 { background-color: rgb(67, 58, 48); }
 div.f502 { background-color: rgb(107, 86, 66); }
