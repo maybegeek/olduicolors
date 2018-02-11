@@ -28,6 +28,10 @@ header h1 {
   grid-column-end: -1;
 }
 
+header p {
+  font-size: 1.2em;
+}
+
 header figure {
   margin: 0;
   margin-top: 1em;
