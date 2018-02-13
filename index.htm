@@ -13,8 +13,8 @@
     <div class="meta">
       <p>Ausgehend von Farbpaletten wie <em>flat ui colors</em> soll hier eine Farbpalette widergegeben werden, welche uns prächtig bunt in der Mettener Armenbibel entgegenprangt. „Mettener Armenbibel“ (Biblia pauperum) &ndash; BSB Clm 8201, Metten, 1414/15 [<a href="http://daten.digitale-sammlungen.de/~db/0004/bsb00040329/images/index.html?seite=00001&l=de">BSB-Hss Clm 8201</a>].</p>
       <p>Die 28 Zeilen mit farbiger Initiale auf <a href="http://daten.digitale-sammlungen.de/~db/0004/bsb00040329/images/index.html?seite=7&pdfseitex=">folio 2r</a> sollen unserer Farbpalette als Vorlage dienen. Hierfür sollen dominante Farb-Cluster innerhalb jeweils gleich/ähnlich-farbiger Zeilen ausgemacht werden und hier gezeigt werden.</p>
-      <p>Verwendet wurde das JS-Projekt (mit Unterprojekten) color-thief.js, zur modifizierten Quantifizierung der Bilddaten und der Ermittlung dominanter Farbcluster.</p>
-      <p>Die jeweils drei Spalten sind handverlesen (Titelzeile), handverlesen (Zeile 2) und automatisch (Zeile 3, color-thief.js).</p>
+      <p>Verwendet wurde das JS-Projekt (mit Unterprojekten) [color-thief.js](https://github.com/lokesh/color-thief), zur modifizierten Quantifizierung der Bilddaten und Ermittlung dominanter Farbcluster. Hierzu wurden die jeweiligen Zeilengruppen ähnlicher Farbe freigestellt und einmal komplett über alle Zeilen die Farbcluster ermittelt, einmal über die jeweiligen farbähnlichen Zeilengruppen.</p>
+
     </div>
     <figure>
       <img src="bibliapauperum.jpg">
@@ -23,65 +23,60 @@
 
   <main>
 
-    <h2 class="colorg f1">Zeile 1, 6, 11, 16, 21, 26</h2>
+    <h2 class="colorg">Farbcluster über kompletten Text ohne Initiale</h2>
 
-    <div class="f1h1">rgb(205, 88, 57)</div>
-    <div class="f1h2">rgb(219, 95, 58)</div>
-    <div class="f1h3">rgb(218, 95, 57)</div>
-    <div class="f1h4">rgb(208, 90, 53)</div>
+    <div class="g1">rgb(209, 101, 65);</div>
+    <div class="g2"></div>
+    <div class="g3"></div>
+    <div class="g4"></div>
+    <div class="g5"></div>
+    <div class="g6"></div>
+    <div class="g7"></div>
+    <div class="g8"></div>
+    <div class="g9"></div>
+    <div class="g10"></div>
 
-    <div class="f101">rgb(206, 92, 54)</div>
-    <div class="f102">rgb(202, 141, 112)</div>
-    <div class="f103">rgb(186, 106, 98)</div>
-    <div class="f104">rgb(214, 148, 140)</div>
+    <h2 class="colorg">Farbcluster jeweiliger Zeilengruppen</h2>
 
-    <h2 class="colorg f2">Zeile 2, 7, 12, 17, 22, 27</h2>
+    <h3 class="colorg z1">Zeile 1, 6, 11, 16, 21, 26: rgb( 209, 97, 60 );</h3>
 
-    <div class="f2h1">rgb(51, 89, 109)</div>
-    <div class="f2h2">rgb(32, 84, 112)</div>
-    <div class="f2h3">rgb(50, 110, 140)</div>
-    <div class="f2h4">rgb(35, 74, 89)</div>
+    <div class="z1a">rgb( 180, 88, 60 );</div>
+    <div class="z1b">rgb( 209, 97, 60 );</div>
+    <div class="z1c">rgb( 208, 121, 89 );</div>
+    <div class="z1d">rgb( 214, 144, 115 );</div>
+    <div class="z1e">rgb( 228, 148, 100 );</div>
 
-    <div class="f201">rgb(43, 83, 104)</div>
-    <div class="f202">rgb(124, 142, 146)</div>
-    <div class="f203">rgb(166, 172, 168)</div>
-    <div class="f204">rgb(84, 148, 168)</div>
+    <h3 class="colorg z2">Zeile 2, 7, 12, 17, 22, 27: rgb( 47, 87, 109 );</h3>
 
-    <h2 class="colorg f3">Zeile 3, 8, 13, 18, 23, 28</h2>
+    <div class="z2a">rgb( 47, 87, 109 );</div>
+    <div class="z2b">rgb( 62, 114, 140 );</div>
+    <div class="z2c">rgb( 100, 133, 143 );</div>
+    <div class="z2d">rgb( 92, 114, 124 );</div>
+    <div class="z2e">rgb( 125, 133, 130 );</div>
 
-    <div class="f3h1">rgb(176, 122, 132)</div>
-    <div class="f3h2">rgb(149, 81, 94)</div>
-    <div class="f3h3">rgb(175, 114, 129)</div>
-    <div class="f3h4">rgb(200, 140, 141)</div>
+    <h3 class="colorg z3">Zeile 3, 8, 13, 18, 23, 28: rgb( 160, 97, 103 );</h3>
 
-    <div class="f301">rgb(143, 78, 84)</div>
-    <div class="f302">rgb(173, 116, 118)</div>
-    <div class="f303">rgb(95, 48, 49)</div>
-    <div class="f304">rgb(190, 157, 147)</div>
+    <div class="z3a">rgb( 109, 56, 61 );</div>
+    <div class="z3b">rgb( 126, 60, 58 );</div>
+    <div class="z3c">rgb( 127, 59, 70 );</div>
+    <div class="z3d">rgb( 160, 97, 103 );</div>
+    <div class="z3e">rgb( 189, 127, 128 );</div>
 
-    <h2 class="colorg f4">Zeile 4, 9, 14, 19, 24</h2>
+    <h3 class="colorg z4">Zeile 4, 9, 14, 19, 24: rgb( 121, 124, 67 );</h3>
 
-    <div class="f4h1">rgb(156, 170, 111)</div>
-    <div class="f4h2">rgb(129, 139, 79)</div>
-    <div class="f4h3">rgb(142, 150, 93)</div>
-    <div class="f4h4">rgb(100, 101, 57)</div>
+    <div class="z4a">rgb( 90, 92, 49 );</div>
+    <div class="z4b">rgb( 121, 124, 67 );</div>
+    <div class="z4c">rgb( 145, 157, 95 );</div>
+    <div class="z4d">rgb( 158, 160, 98 );</div>
+    <div class="z4e">rgb( 138, 140, 100 );</div>
 
-    <div class="f401">rgb(114, 115, 60)</div>
-    <div class="f402">rgb(155, 158, 105)</div>
-    <div class="f403">rgb(177, 172, 151)</div>
-    <div class="f404">rgb(116, 112, 92)</div>
+    <h3 class="colorg z5">Zeile 5, 10, 15, 20, 25: rgb( 82, 73, 61 );</h3>
 
-    <h2 class="colorg f5">Zeile 5, 10, 15, 20, 25</h2>
-
-    <div class="f5h1">rgb(80, 74, 67)</div>
-    <div class="f5h2">rgb(70, 64, 55)</div>
-    <div class="f5h3">rgb(64, 59, 55)</div>
-    <div class="f5h4">rgb(51, 49, 42)</div>
-
-    <div class="f501">rgb(67, 58, 48)</div>
-    <div class="f502">rgb(107, 86, 66)</div>
-    <div class="f503">rgb(124, 105, 77)</div>
-    <div class="f504">rgb(129, 119, 104)</div>
+    <div class="z5a">rgb( 82, 73, 61 );</div>
+    <div class="z5b">rgb( 122, 109, 92 );</div>
+    <div class="z5c">rgb( 152, 142, 126 );</div>
+    <div class="z5d">rgb( 132, 132, 124 );</div>
+    <div class="z5e">rgb( 132, 132, 114 );</div>
 
   </main>
 

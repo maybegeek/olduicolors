@@ -50,14 +50,15 @@ header figure img {
 main {
   padding: 12px;
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
   color: white;
   background-color: white;
   grid-gap: 2px;
+  font-size: 0.6em;
 }
 
 main div {
-  padding: 32px 6px;
+  padding: 38px 10px;
   text-align: center;
 }
 
@@ -70,72 +71,52 @@ main .colorg {
   text-align: center;
 }
 
-main .colorg.f1 {
-  background-color: rgb(219, 95, 58);
+main .colorg.z1 {
+  background-color: rgb(209, 97, 60);
 }
 
-main .colorg.f2 {
+main .colorg.z2 {
   background-color: rgb(32, 84, 112);
 }
 
-main .colorg.f3 {
-  background-color: rgb(149, 81, 94);
+main .colorg.z3 {
+  background-color: rgb(160, 97, 103);
 }
 
-main .colorg.f4 {
-  background-color: rgb(129, 139, 79);
+main .colorg.z4 {
+  background-color: rgb(121, 124, 67);
 }
 
-main .colorg.f5 {
-  background-color: rgb(51, 49, 42);
+main .colorg.z5 {
+  background-color: rgb(82, 73, 61);
 }
 
-div.f1h1 { background-color: rgb(205, 88, 57); }
-div.f1h2 { background-color: rgb(219, 95, 58); }
-div.f1h3 { background-color: rgb(218, 95, 57); }
-div.f1h4 { background-color: rgb(208, 90, 53); }
+div.z1a { background-color: rgb(180, 88, 60); }
+div.z1b { background-color: rgb(209, 97, 60); }
+div.z1c { background-color: rgb(208, 121, 89); }
+div.z1d { background-color: rgb(214, 144, 115); }
+div.z1e { background-color: rgb(228, 148, 100); }
 
-div.f101 { background-color: rgb(206, 92, 54); }
-div.f102 { background-color: rgb(202, 141, 112); }
-div.f103 { background-color: rgb(186, 106, 98); }
-div.f104 { background-color: rgb(214, 148, 140); }
+div.z2a { background-color: rgb(47, 87, 109); }
+div.z2b { background-color: rgb(62, 114, 140); }
+div.z2c { background-color: rgb(100, 133, 143); }
+div.z2d { background-color: rgb(92, 114, 124); }
+div.z2e { background-color: rgb(125, 133, 130); }
 
-div.f2h1 { background-color: rgb(51, 89, 109); }
-div.f2h2 { background-color: rgb(32, 84, 112); }
-div.f2h3 { background-color: rgb(50, 110, 140); }
-div.f2h4 { background-color: rgb(35, 74, 89); }
+div.z3a { background-color: rgb(109, 56, 61); }
+div.z3b { background-color: rgb(126, 60, 58); }
+div.z3c { background-color: rgb(127, 59, 70); }
+div.z3d { background-color: rgb(160, 97, 103); }
+div.z3e { background-color: rgb(189, 127, 128); }
 
-div.f201 { background-color: rgb(43, 83, 104); }
-div.f202 { background-color: rgb(124, 142, 146); }
-div.f203 { background-color: rgb(166, 172, 168); }
-div.f204 { background-color: rgb(84, 148, 168); }
+div.z4a { background-color: rgb(90, 92, 49); }
+div.z4b { background-color: rgb(121, 124, 67); }
+div.z4c { background-color: rgb(145, 157, 95); }
+div.z4d { background-color: rgb(158, 160, 98); }
+div.z4e { background-color: rgb(138, 140, 100); }
 
-div.f3h1 { background-color: rgb(176, 122, 132); }
-div.f3h2 { background-color: rgb(149, 81, 94); }
-div.f3h3 { background-color: rgb(175, 114, 129); }
-div.f3h4 { background-color: rgb(200, 140, 141); }
-
-div.f301 { background-color: rgb(143, 78, 84); }
-div.f302 { background-color: rgb(173, 116, 118); }
-div.f303 { background-color: rgb(95, 48, 49); }
-div.f304 { background-color: rgb(190, 157, 147); }
-
-div.f4h1 { background-color: rgb(156, 170, 111); }
-div.f4h2 { background-color: rgb(129, 139, 79); }
-div.f4h3 { background-color: rgb(142, 150, 93); }
-div.f4h4 { background-color: rgb(100, 101, 57); }
-
-div.f401 { background-color: rgb(114, 115, 60); }
-div.f402 { background-color: rgb(155, 158, 105); }
-div.f403 { background-color: rgb(177, 172, 151); }
-div.f404 { background-color: rgb(116, 112, 92); }
-
-div.f5h1 { background-color: rgb(80, 74, 67); }
-div.f5h2 { background-color: rgb(70, 64, 55); }
-div.f5h3 { background-color: rgb(64, 59, 55); }
-div.f5h4 { background-color: rgb(51, 49, 42); }
-
-div.f501 { background-color: rgb(67, 58, 48); }
-div.f502 { background-color: rgb(107, 86, 66); }
-div.f503 { background-color: rgb(124, 105, 77); }
-div.f504 { background-color: rgb(129, 119, 104); }
+div.z5a { background-color: rgb(82, 73, 61); }
+div.z5b { background-color: rgb(122, 109, 92); }
+div.z5c { background-color: rgb(152, 142, 126); }
+div.z5d { background-color: rgb(132, 132, 124); }
+div.z5e { background-color: rgb(132, 132, 114); }
