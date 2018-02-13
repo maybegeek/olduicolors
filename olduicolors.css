@@ -15,27 +15,30 @@ body {
   max-width: 960px;
   margin: 0 auto;
   padding: 24px;
+  color: rgb(56, 52, 45);;
+}
+
+a {
+  text-decoration: none;
+  color: rgb( 209, 99, 62 );
+  border-bottom: 2px dotted rgb( 209, 99, 62 );
+}
+
+a:hover {
+  border-bottom: 2px solid rgb( 209, 99, 62 );
 }
 
 header {
+  font-family: 'IM Fell English', serif;
+  font-size: 1.6em;
   display: grid;
-  grid-template-columns: 1fr 1fr;
-  grid-gap: 1em;
-}
-
-@media (max-width: 700px) {
-  header {
-    grid-template-columns: 1fr;
-  }
+  grid-template-columns: 60% 37%;
+  grid-gap: 3%;
 }
 
 header h1 {
   grid-column-start: 1;
   grid-column-end: -1;
-}
-
-header p {
-  font-size: 1.2em;
 }
 
 header figure {
@@ -47,8 +50,12 @@ header figure img {
   width: 100%;
 }
 
+header figure figcaption {
+  font-size: 0.7em;
+  padding: 0.1em 0.5em;
+}
+
 main {
-  padding: 12px;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
   color: white;
@@ -57,8 +64,10 @@ main {
   font-size: 0.6em;
 }
 
-main div {
-  padding: 38px 10px;
+main div,
+main h2,
+main h3 {
+  padding: 54px 24px;
   text-align: center;
 }
 
@@ -67,9 +76,26 @@ main .colorg {
   grid-column-end: -1;
   color: white;
   margin: 0;
-  padding: 30px 20px;
+  padding: 54px 24px;
   text-align: center;
 }
+
+main h2.colorg {
+  color: rgb(56, 52, 45);
+  font-family: 'IM Fell English', serif;
+  font-size: 2.4em;
+}
+
+div.g1 { background-color: rgb(202, 76, 37); }
+div.g2 { background-color: rgb(44, 85, 108); }
+div.g3 { background-color: rgb(147, 93, 89); }
+div.g4 { background-color: rgb(125, 129, 70); }
+div.g5 { background-color: rgb(56, 52, 45); }
+div.g6 { background-color: rgb(209, 99, 62); }
+div.g7 { background-color: rgb(54, 105, 140); }
+div.g8 { background-color: rgb(173, 109, 113); }
+div.g9 { background-color: rgb(145, 152, 94); }
+div.g10 { background-color: rgb(120, 93, 65); }
 
 main .colorg.z1 {
   background-color: rgb(209, 97, 60);
@@ -120,3 +146,18 @@ div.z5b { background-color: rgb(122, 109, 92); }
 div.z5c { background-color: rgb(152, 142, 126); }
 div.z5d { background-color: rgb(132, 132, 124); }
 div.z5e { background-color: rgb(132, 132, 114); }
+
+
+@media (max-width: 700px) {
+  header {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 500px) {
+  main div,
+  main h2,
+  main h3 {
+    padding: 40px 10px;
+  }
+}
