@@ -22,13 +22,23 @@ Die einzelnen, farbähnlichen Zeilen wurden ausgeschnitten und manuell freigeste
 
 ### Farbgruppen
 
+#### die Zeilen 1, 6, 11, 16, 21 und 26
+
 ![Farbgruppe 1](gruppe1.png)
+
+#### die Zeilen 2, 7, 12, 17, 22 und 27
 
 ![Farbgruppe 2](gruppe2.png)
 
+#### die Zeilen 3, 8, 13, 18, 23 und 28
+
 ![Farbgruppe 3](gruppe3.png)
 
+#### die Zeilen 4, 9, 14, 19 und 24
+
 ![Farbgruppe 4](gruppe4.png)
+
+#### die Zeilen 5, 10, 15, 20 und 25
 
 ![Farbgruppe 5](gruppe5.png)
 
