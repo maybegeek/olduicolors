@@ -81,6 +81,10 @@ main h3 {
   text-align: center;
 }
 
+main .color {
+  cursor: pointer;
+}
+
 main .colorg {
   grid-column-start: 1;
   grid-column-end: -1;
