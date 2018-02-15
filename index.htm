@@ -96,13 +96,15 @@
       return new Promise(resolve => setTimeout(resolve, ms));
     }
     async function toool() {
+      var rgba = e.trigger.getAttribute("data-clipboard-text");
       e.trigger.removeAttribute("data-balloon");
       e.trigger.setAttribute("data-balloon-visible","data-balloon-visible");
       e.trigger.setAttribute("data-balloon","RGBA-Wert wurde kopiert");
       await sleep(2000);
       e.trigger.removeAttribute("data-balloon-visible");
       await sleep(1000);
-      e.trigger.setAttribute("data-balloon","Farbwert kopieren");
+      e.trigger.setAttribute("data-balloon","Farbwert kopieren: " + rgba);
+
     }
       toool();
       e.clearSelection();
